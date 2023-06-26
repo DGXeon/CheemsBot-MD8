@@ -6518,7 +6518,7 @@ XeonStickWait()
                 quoted: m,
             })
             break
-            case 'weather':
+            case 'weather':{
 if (!text) return replygcxeon('What location?')
 XeonStickWait()
             let wdata = await axios.get(
@@ -6544,6 +6544,7 @@ XeonStickWait()
                     quoted: m,
                 }
            )
+           }
            break
            case 'wanumber': case 'searchno': case 'searchnumber':{
            	if (!text) return replygcxeon(`Provide Number with last number x\n\nExample: ${prefix + command} 91690913721x`)
