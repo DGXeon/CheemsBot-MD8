@@ -1303,26 +1303,6 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${m.se
 } else {
 }
 
-if (!isCmd && m.isGroup && isAlreadyResponList(m.chat, chath, db_respon_list)) {
-var get_data_respon = getDataResponList(m.chat, chath, db_respon_list)
-if (get_data_respon.isImage === false) {
-XeonBotInc.sendMessage(m.chat, { text: sendResponList(m.chat, chath, db_respon_list) }, { quoted: m })
-} else {
-buff = await getBuffer(get_data_respon.image_url)
-XeonBotInc.sendImage(m.chat, buff, `${get_data_respon.response}`, m)
-}
-}
-
-if (!isCmd && isAlreadyXeonBotIncList(chath, dblist)) {
-var getraindata = getDataXeonBotIncList(chath, dblist)
-if (getraindata.isImage === false) {
-XeonBotInc.sendMessage(m.chat, { text: sendXeonBotIncList(chath, dblist) }, { quoted: m })
-} else {
-buff = await getBuffer(getraindata.image_url)
-XeonBotInc.sendImage(m.chat, buff, `${getraindata.response}`, m)
-}
-}
-
 //menu thingy
 const timestamp = speed()
 const latensi = speed() - timestamp
