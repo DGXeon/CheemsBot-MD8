@@ -1,0 +1,4 @@
+language="nodejs"
+run="npm install && pm2 start index.js && pm2 save && pm2 logs"
+entrypoint = "index.js"
+hidden = [".config", "package-lock.json"]
