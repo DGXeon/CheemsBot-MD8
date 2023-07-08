@@ -1498,8 +1498,8 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 └─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+│𝗕𝗼𝘁 : ${global.supremus-MD}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${22890358510}
 │𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
 │𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
 │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
