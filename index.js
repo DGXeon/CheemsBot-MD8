@@ -106,10 +106,6 @@ try{
 			console.log(color(`\n🌿Connecting...`, 'yellow'))
 		}
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
-			await XeonBotInc.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot started!*\n\n\n_Don't forget to support, bro :)_\n\nYouTube: https://youtube.com/@DGXeon\n\nGitHub: https://github.com/DGXeon\n\nInstsgram: https://instagram.com/unicorn_xeon?igshid=MTIzZWQxMDU=\n\nWhatsApp Pm: wa.me/916909137213\n\n WhatsApp Gc1: https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH\n\nWhatsApp Gc2: https://chat.whatsapp.com/BW0o3ZyiAF5Azb1bIqG9Ue\n\nWhatsApp Gc3: https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH\n\nDonate: https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg \n\n\n_*Thanks to*_\n_*Lord Buddha*_\n_*Myself*_\n_*Family*_\n_*Friends who helped me assemble this script*_` });
-			await XeonBotInc.groupAcceptInvite("Dc2qyVeK8JbJq8Gr3U1pKH") //auto join group, if group link is invalid or if bot number is not able to join the group, then it will give error in the startup
-			//await delay(1000 * 2) 
-             //XeonBotInc.sendMessage(xeonchat, { text : 'Yooo wassup guys, cheems bot here! 👀' })
 			console.log(color(` `,'magenta'))
             console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
 			await delay(1999)
