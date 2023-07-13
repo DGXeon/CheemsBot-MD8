@@ -96,6 +96,7 @@ pkg install wget
 pkg install imagemagick -y
 git clone https://github.com/DGXeon/CheemsBot-MD8
 cd CheemsBot-MD8
+yarn install
 npm start
 ```
 ## `For VPS`
