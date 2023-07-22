@@ -21,9 +21,10 @@
   "author": "DGXeon",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "npm:@ferdiz-afk/baileys",
+    "@whiskeysockets/baileys": "^6.2.1",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "4.0.22-alpha.0",
+    "@hapi/boom": "^10.0.1",
     "@saipulanuar/jadianime-ts": "^2.0.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "awesome-phonenumber": "^2.64.0",
