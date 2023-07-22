@@ -2,7 +2,7 @@ module.exports = {
 modul: {
 	axios: require('axios'),
 	boom: require('@hapi/boom'),
-	baileys: require('@adiwajshing/baileys'),
+	baileys: require("@whiskeysockets/baileys"),
 	chalk: require('chalk'),
 	crypto: require('crypto'),
 	cheerio: require('cheerio'),
@@ -49,7 +49,7 @@ modul: {
     stream: require('stream'),
     syntaxerror: require('syntax-error'),
     util: require('util'),
-    Utils: require('@adiwajshing/baileys/lib/Utils'),
+    Utils: require('@whiskeysockets/baileys/lib/Utils'),
     yargs: require('yargs'),
     ytdlcr: require('youtubedl-core'),
     yts: require('yt-search'),
