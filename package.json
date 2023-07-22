@@ -21,7 +21,7 @@
   "author": "DGXeon",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.2.1",
+    "@whiskeysockets/baileys": "^6.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "4.0.22-alpha.0",
     "@hapi/boom": "^10.0.1",
