@@ -48,7 +48,7 @@
     "got": "^11.8.3",
     "human-readable": "^0.2.1",
     "javascript-obfuscator": "^4.0.0",
-    "jimp": "^0.22.8",
+    "jimp": "^0.16.1",
     "jsdom": "^16.4.0",
     "kirbotz-api": "^0.0.2",
     "lowdb": "^2.1.0",
