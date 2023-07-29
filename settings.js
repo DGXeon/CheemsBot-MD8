@@ -21,8 +21,8 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['+94 76 602 1282'] //ur owner number
-global.ownernomer = "+94 76 602 1282" //ur owner number2
+global.owner = ['+94766021282'] //ur owner number
+global.ownernomer = "+94766021282" //ur owner number2
 global.ownername = "🦄Dream Guy Xeon" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
@@ -32,7 +32,7 @@ global.location = "India, Mizoram, Aizawl" //ur location
 global.botname = "Cheems Bot MD V8"
 global.ownernumber = '+94 76 602 1282'
 global.ownername = '🦄드림 가이 Xeon'
-global.ownerNumber = ["916909137213@s.whatsapp.net"]
+global.ownerNumber = ["+94766021282@s.whatsapp.net"]
 global.ownerweb = "https://youtube.com/@DGXeon"
 global.websitex = "https://youtu.be/L_SIk59QeAU"
 global.wagc = "https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"
@@ -41,16 +41,16 @@ global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
 global.packname = "Sticker By"
 global.author = "🦄드림 가이 Xeon\n\n"
-global.creator = "+94 76 602 1282@s.whatsapp.net"
+global.creator = "+94766021282@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync(".https://telegra.ph/file/6032c257abee792a75480.jpg") //ur thumb pic
-global.log0 = fs.readFileSync(".https://telegra.ph/file/6032c257abee792a75480.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./https://telegra.ph/file/6032c257abee792a75480.jpg") //ur error pic
-global.thumb = fs.readFileSync(".https://telegra.ph/file/6032c257abee792a75480.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
 
 //menu image maker
