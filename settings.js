@@ -23,24 +23,24 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.owner = ['+94766021282'] //ur owner number
 global.ownernomer = "+94766021282" //ur owner number2
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
+global.ownername = "🎩ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ-ᴠ1🎩" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
-global.botname = "Cheems Bot MD V8"
+global.botname = "🎩ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ-ᴠ1🎩"
 global.ownernumber = '+94 76 602 1282'
-global.ownername = '🦄드림 가이 Xeon'
+global.ownername = '🎩ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ-ᴠ1🎩'
 global.ownerNumber = ["+94766021282@s.whatsapp.net"]
 global.ownerweb = "https://youtube.com/@DGXeon"
 global.websitex = "https://youtu.be/L_SIk59QeAU"
 global.wagc = "https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"
-global.themeemoji = '🪀'
+global.themeemoji = '🎩'
 global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
-global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n"
+global.packname = "sachiya"
+global.author = "🎩ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ-ᴠ1🎩\n\n"
 global.creator = "+94766021282@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
