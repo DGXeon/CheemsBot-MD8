@@ -20,7 +20,7 @@ const {
     jidDecode,
     getAggregateVotesInPollMessage,
     proto
-} = require("@adiwajshing/baileys")
+} = require("@whiskeysockets/baileys")
 const { color, bgcolor } = require('./lib/color')
 const colors = require('colors')
 const { start } = require('./lib/spinner')
