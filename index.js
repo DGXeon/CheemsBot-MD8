@@ -20,7 +20,7 @@ const {
     jidDecode,
     getAggregateVotesInPollMessage,
     proto
-} = require("@whiskeysockets/baileys")
+} = require("@adiwajshing/baileys")
 const { color, bgcolor } = require('./lib/color')
 const colors = require('colors')
 const { start } = require('./lib/spinner')
@@ -46,10 +46,45 @@ const owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
-require('./XeonCheems8.js')
-nocache('../XeonCheems8.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
+require('./darknav3.js')
+nocache('../darknav3.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
 require('./index.js')
 nocache('../index.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
+
+
+// new
+
+function title() {
+      console.clear()
+      console.log(chalk.yellow(`\n\n               ${chalk.bold.yellow(`[ ${botname} ]`)}\n\n`))
+      console.log(color(`< ================================================== >`, 'cyan'))
+	console.log(color(`\n${themeemoji} YT CHANNEL: Xeon`,'magenta'))
+console.log(color(`${themeemoji} GITHUB: DGXeon `,'magenta'))
+console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
+console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
+}
+
+async function XeonBotIncBot() {
+    	const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
+        const XeonBotInc = XeonBotIncConnect({
+            printQRInTerminal: true,
+            logger: pino({ level: 'fatal' }),
+            auth: state,
+            browser: [`${botname}`, "Safari", "3.0"],
+	    getMessage: async key => {
+              return {
+                
+              }
+          }
+        })
+        store.bind(XeonBotInc.ev)
+
+console.log(color(figlet.textSync(`DARK-NA-V3`, {
+font: 'Standard',
+horizontalLayout: 'default',
+vertivalLayout: 'default',
+whitespaceBreak: false
+}), 'blue'))
 
 async function XeonBotIncBot() {
 	const {  saveCreds, state } = await useMultiFileAuthState(`./${sessionName}`)
@@ -64,7 +99,7 @@ async function XeonBotIncBot() {
                 return msg.message || undefined
             }
             return {
-                conversation: "Cheems Bot Here"
+                conversation: "DARK-NA Bot Here"
             }
         }
     })
@@ -106,6 +141,10 @@ try{
 			console.log(color(`\n🌿Connecting...`, 'yellow'))
 		}
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
+			await XeonBotInc.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot started!` });
+			await XeonBotInc.groupAcceptInvite("Dc2qyVeK8JbJq8Gr3U1pKH") //auto join group, if group link is invalid or if bot number is not able to join the group, then it will give error in the startup
+			//await delay(1000 * 2) 
+             //XeonBotInc.sendMessage(xeonchat, { text : 'Yooo wassup guys, cheems bot here! 👀' })
 			console.log(color(` `,'magenta'))
             console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
 			await delay(1999)
@@ -158,7 +197,7 @@ await XeonBotInc.readMessages([kay.key]) }
 if (!XeonBotInc.public && !kay.key.fromMe && chatUpdate.type === 'notify') return
 if (kay.key.id.startsWith('BAE5') && kay.key.id.length === 16) return
 const m = smsg(XeonBotInc, kay, store)
-require('./XeonCheems8')(XeonBotInc, m, chatUpdate, store)
+require('./darknav3')(XeonBotInc, m, chatUpdate, store)
 } catch (err) {
 console.log(err)}})
 
@@ -231,16 +270,18 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「  @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+                xeonbody = `
+┌───🌟WELCOME🌟────∎
+│
+│➫  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+│✑  ${metadata.subject}
+│➫  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+│✑  ${xmembers}th
+│
+│➫  DARK NA V3
+│➫  CREATED BY NILAMBARA
+│
+└───────────────────∎`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -259,16 +300,18 @@ XeonBotInc.sendMessage(anu.id,
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
-   │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+                    xeonbody = `
+┌───🌟GOOD BYE🌟────∎
+│
+│➫  left 
+│✑  ${metadata.subject}
+│➫  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+│✑  ${xmembers}th
+│
+│➫  DARK NA V3
+│➫  CREATED BY NILAMBARA
+│
+└───────────────────∎`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -331,7 +374,7 @@ console.log(err)
             return msg?.message
         }
         return {
-            conversation: "Cheems Bot Here"
+            conversation: "DARK-NA Bot Here"
         }
     }
     XeonBotInc.ev.on('messages.update', async chatUpdate => {
