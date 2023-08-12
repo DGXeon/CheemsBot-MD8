@@ -1489,53 +1489,28 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
-            xeonezy = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
-│└────────────┈ ⳹
+            xeonezy = `
+ ╭━━━【 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 】
+ │💨𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+ │⏳𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+ │👀𝗕𝗼𝘁 : ${global.botname}
+ │☃𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+┌┤――――【 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 】
 │
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│⌚𝗧𝗶??𝗲 : ${xtime}
+│📆𝗗𝗮𝘁𝗲 : ${xdate}
 │
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
-│
-└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
-│𝗧𝗶??𝗲 : ${xtime}
-│𝗗𝗮𝘁𝗲 : ${xdate}
-└┬────────────┈ ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
-┌└─────────────┈ ⳹
-│❏.allmenu
-│❏.downloadmenu
-│❏.funmenu
-│❏.aimenu
-│❏.groupmenu
-│❏.ownermenu
-│❏.photooxymenu
-│❏.textpromenu
-│❏.ephoto360menu
-│❏.animemenu
-│❏.nsfwmenu
-│❏.randomphotomenu
-│❏.randomvideomenu
-│❏.stickermenu
-│❏.databasemenu
-│❏.stalkermenu
-│❏.bugmenu
-│❏.othermenu
-└─────────────────┈ ⳹`
+│―――――【 *MENU* 】
+│🎀.allmenu
+│🎀.downloadmenu
+│🎀.aimenu
+│🎀.groupmenu
+│🎀.ownermenu 
+│🎀.othermenu
+╰―――――――――――――――――
+
+*DARK NA V3*
+`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
@@ -1549,9 +1524,9 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 }, { quoted: m })
@@ -1570,9 +1545,9 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1591,9 +1566,9 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1612,9 +1587,9 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1633,9 +1608,9 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1654,246 +1629,246 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
 }
 break
-case 'funmenu': {
-var unicorn = await getBuffer(picak+'Fun Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${funmenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'stalkermenu': {
-var unicorn = await getBuffer(picak+'Stalker Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${stalkermenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'randomphotomenu': {
-var unicorn = await getBuffer(picak+'Random Pic Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${randphotomenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'randomvideomenu': {
-var unicorn = await getBuffer(picak+'Random Vid Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${randvideomenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'textpromenu': {
-var unicorn = await getBuffer(picak+'Textpro Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${textpromenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'photooxymenu': {
-var unicorn = await getBuffer(picak+'Photooxy Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${photooxymenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'ephoto360menu': {
-var unicorn = await getBuffer(picak+'Photo360 Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${ephoto360menu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'nsfwmenu': {
-var unicorn = await getBuffer(picak+'Anime NSFW Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${nsfwmenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'animemenu': {
-var unicorn = await getBuffer(picak+'Anime Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${animemenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'stickermenu': {
-var unicorn = await getBuffer(picak+'Sticker Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${stickermenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'databasemenu': {
-var unicorn = await getBuffer(picak+'Database Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${databasemenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'aimenu': {
+// case 'funmenu': {
+// var unicorn = await getBuffer(picak+'Fun Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${funmenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'stalkermenu': {
+// var unicorn = await getBuffer(picak+'Stalker Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${stalkermenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'randomphotomenu': {
+// var unicorn = await getBuffer(picak+'Random Pic Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${randphotomenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'randomvideomenu': {
+// var unicorn = await getBuffer(picak+'Random Vid Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${randvideomenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'textpromenu': {
+// var unicorn = await getBuffer(picak+'Textpro Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${textpromenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'photooxymenu': {
+// var unicorn = await getBuffer(picak+'Photooxy Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${photooxymenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'ephoto360menu': {
+// var unicorn = await getBuffer(picak+'Photo360 Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${ephoto360menu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'nsfwmenu': {
+// var unicorn = await getBuffer(picak+'Anime NSFW Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${nsfwmenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'animemenu': {
+// var unicorn = await getBuffer(picak+'Anime Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${animemenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'stickermenu': {
+// var unicorn = await getBuffer(picak+'Sticker Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${stickermenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+// case 'databasemenu': {
+// var unicorn = await getBuffer(picak+'Database Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${databasemenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
+ case 'aimenu': {
 var unicorn = await getBuffer(picak+'OpenAI Menu')
 sendXeonBotIncMessage(from, { 
 text: `Hi @${sender.split("@")[0]}\n\n${aimenu(prefix)}`,
@@ -1906,35 +1881,35 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/darknap.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'bugmenu': {
-var unicorn = await getBuffer(picak+'Bug Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${bugmenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
+ }
+ }
+ })
+ }
+ break
+// case 'bugmenu': {
+// var unicorn = await getBuffer(picak+'Bug Menu')
+// sendXeonBotIncMessage(from, { 
+// text: `Hi @${sender.split("@")[0]}\n\n${bugmenu(prefix)}`,
+// mentions:[sender],
+// contextInfo:{
+// mentionedJid:[sender],
+// "externalAdReply": {
+// "showAdAttribution": true,
+// "renderLargerThumbnail": true,
+// "title": botname, 
+// "containsAutoReply": true,
+// "mediaType": 1, 
+// "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+// "mediaUrl": `${wagc}`,
+// "sourceUrl": `${wagc}`
+// }
+// }
+// })
+// }
+// break
 case 'sound1':
 case 'sound2':
 case 'sound3':
@@ -2116,7 +2091,7 @@ XeonBotInc.sendMessage(from, {text: `Here @${teman.split("@")[0]}`, mentions: [t
 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 me = m.sender
-teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg`
+teks = `*not add github*`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
@@ -2275,7 +2250,7 @@ case 'poll': {
             let [poll, opt] = text.split("|")
             if (text.split("|") < 2)
                 return await replygcxeon(
-                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Xeon,Cheems,Doge...`
+                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?`
                 )
             let options = []
             for (let i of opt.split(',')) {
@@ -3077,14 +3052,14 @@ await replygcxeon(`Done`)
 break
 case 'setbotname':{
 if (!XeonTheCreator) return XeonStickOwner()
-if (!text) return replygcxeon(`Where is the name?\nExample: ${prefix + command} Cheems Bot`)
+if (!text) return replygcxeon(`Where is the name?\nExample: ${prefix + command} DARK NA Bot`)
     await XeonBotInc.updateProfileName(text)
     replygcxeon(`Success in changing the name of bot's number`)
     }
     break
 case 'setbotbio':{
 if (!XeonTheCreator) return XeonStickOwner()
-if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} Cheems Bot`)
+if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} DARK NA Bot`)
     await XeonBotInc.updateProfileStatus(text)
     replygcxeon(`Success in changing the bio of bot's number`)
     }
@@ -3323,28 +3298,28 @@ case 'yts': case 'ytsearch': {
                 XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
             }
             break
-case 'xxxxplay':{
-if (!text) return replygcxeon(`Example : ${prefix+command} story wa anime`)
-XeonStickWait()
-let search = await yts(text)
-url = search.videos[0].url
-let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
-eek = await getBuffer(anu.thumbnail)
-owned = `${ownernumber}@s.whatsapp.net`
-ngen = `
-Title : ${anu.title}
-Ext : Search
-ID : ${anu.videoId}
-Viewers : ${anu.views}
-Upload At : ${anu.ago}
-Author : ${anu.author.name}
-Channel : ${anu.author.url}
-Link : ${anu.url}
+// case 'xxxxplay':{
+// if (!text) return replygcxeon(`Example : ${prefix+command} story wa anime`)
+// XeonStickWait()
+// let search = await yts(text)
+// url = search.videos[0].url
+// let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+// eek = await getBuffer(anu.thumbnail)
+// owned = `${ownernumber}@s.whatsapp.net`
+// ngen = `
+// Title : ${anu.title}
+// Ext : Search
+// ID : ${anu.videoId}
+// Viewers : ${anu.views}
+// Upload At : ${anu.ago}
+// Author : ${anu.author.name}
+// Channel : ${anu.author.url}
+// Link : ${anu.url}
 
-Copy the link above and type the .ytmp3 link for audio and the .ytmp4 link for video`
-XeonBotInc.sendMessage(m.chat, { image : eek, caption: ngen }, { quoted: m})
-}
-break
+// Copy the link above and type the .ytmp3 link for audio and the .ytmp4 link for video`
+// XeonBotInc.sendMessage(m.chat, { image : eek, caption: ngen }, { quoted: m})
+// }
+// break
 case 'play':  case 'song': {
 if (!text) return replygcxeon(`Example : ${prefix + command} anime whatsapp status`)
 const xeonplaymp3 = require('./lib/ytdl2')
@@ -3494,27 +3469,27 @@ fs.unlinkSync(`./XeonMedia/video/${q}.mp4`)
 replygcxeon(`Success deleting video ${q}`)
 }
 break
-case 'listvideo':{
-let teks = '┌──⭓「 *Video List* 」\n│\n'
-for (let x of VideoXeon) {
-teks += `│⭔ ${x}\n`
-}
-teks += `│\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
-replygcxeon(teks)
-}
-break
-case 'addimage':{
-if (!XeonTheCreator) return XeonStickOwner()
-if (args.length < 1) return replygcxeon('Whats the image name?')
-if (ImageXeon.includes(q)) return replygcxeon("The name is already in use")
-let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
-ImageXeon.push(q)
-await fsx.copy(delb, `./XeonMedia/image/${q}.jpg`)
-fs.writeFileSync('./XeonMedia/database/xeonimage.json', JSON.stringify(ImageXeon))
-fs.unlinkSync(delb)
-replygcxeon(`Success Adding Image\nCheck by typing ${prefix}listimage`)
-}
-break
+// case 'listvideo':{
+// let teks = '┌──⭓「 *Video List* 」\n│\n'
+// for (let x of VideoXeon) {
+// teks += `│⭔ ${x}\n`
+// }
+// teks += `│\n└────────────⭓\n\n*Totally there are : ${VideoXeon.length}*`
+// replygcxeon(teks)
+// }
+// break
+// case 'addimage':{
+// if (!XeonTheCreator) return XeonStickOwner()
+// if (args.length < 1) return replygcxeon('Whats the image name?')
+// if (ImageXeon.includes(q)) return replygcxeon("The name is already in use")
+// let delb = await XeonBotInc.downloadAndSaveMediaMessage(quoted)
+// ImageXeon.push(q)
+// await fsx.copy(delb, `./XeonMedia/image/${q}.jpg`)
+// fs.writeFileSync('./XeonMedia/database/xeonimage.json', JSON.stringify(ImageXeon))
+// fs.unlinkSync(delb)
+// replygcxeon(`Success Adding Image\nCheck by typing ${prefix}listimage`)
+// }
+// break
 case 'delimage':{
 if (!XeonTheCreator) return XeonStickOwner()
 if (args.length < 1) return replygcxeon('Enter the image name')
@@ -6068,7 +6043,7 @@ isForwarded: true,
 "body": `${ownername}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
+"thumbnail": fs.readFileSync(`./XeonMedia/theme/darknap.jpg`),
 "sourceUrl": `${wagc}`}}},
 { quoted: m})        
             }
@@ -6092,7 +6067,7 @@ isForwarded: true,
 "body": `${ownername}`,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
+"thumbnail": fs.readFileSync(`./XeonMedia/theme/darknap.jpg`),
 "sourceUrl": `${wagc}`}}},
 { quoted: m})        
             }
@@ -6141,7 +6116,7 @@ mentionedJid:[xeonshimts],
 "containsAutoReply": true,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
+"thumbnail": fs.readFileSync(`./XeonMedia/theme/darknap.jpg`),
 "sourceUrl": `${wagc}`
 }
 }
