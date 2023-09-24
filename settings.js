@@ -21,36 +21,36 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['916909137213'] //ur owner number
-global.ownernomer = "916909137213" //ur owner number2
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
+global.owner = ['2348107582855'] //ur owner number
+global.ownernomer = "2348107582855" //ur owner number2
+global.ownername = "Antisocial humidity" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.socialm = "GitHub: Feranmi245" //ur github or insta name
+global.location = "Nigeria, Libya, Zimbabwe" //ur location
 
 //new
-global.botname = "Cheems Bot MD V8"
-global.ownernumber = '916909137213'
-global.ownername = '🦄드림 가이 Xeon'
-global.ownerNumber = ["916909137213@s.whatsapp.net"]
+global.botname = "THE JOKER BOT"
+global.ownernumber = '2348107582855'
+global.ownername = ' Antisocial Humidity'
+global.ownerNumber = ["2348107582855@s.whatsapp.net"]
 global.ownerweb = "https://youtube.com/@DGXeon"
 global.websitex = "https://youtu.be/L_SIk59QeAU"
-global.wagc = "https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"
+global.wagc = "https://chat.whatsapp.com/Dp3FX8QmGbtGsRd60no3Zy"
 global.themeemoji = '🪀'
-global.wm = "Xeon Bot Inc."
+global.wm = "joke Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n"
+global.author = "The joker\n\n"
 global.creator = "916909137213@s.whatsapp.net"
-global.prefa = ['','!','.','#','&']
+global.prefa = ['','!','.','#','bot']
 global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./https://imgur.com/a/0hinKxA") //ur thumb pic
+global.log0 = fs.readFileSync("./https://imgur.com/a/0hinKxA") //ur logo pic
+global.err4r = fs.readFileSync("./https://imgur.com/a/0hinKxA") //ur error pic
+global.thumb = fs.readFileSync("./https://imgur.com/a/0hinKxA") //ur thumb pic
 global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
 
 //menu image maker
