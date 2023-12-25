@@ -1485,6 +1485,7 @@ XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my h
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
+    await XeonBotInc.sendMessage(from, { audio : { url : `https://github.com/nimesh-official0/uploads/raw/main/audio/nisala-rayaka.mp3` }, mimetype: "audio/mp4", ptt: "true" })
 	        let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             let timestampe = speed()
