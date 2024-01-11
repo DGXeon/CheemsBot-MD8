@@ -21,15 +21,20 @@
   "author": "DGXeon",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
-    "@adiwajshing/keyed-db": "^0.2.4",
-    "@bochilteam/scraper": "4.0.22-alpha.0",
-    "@saipulanuar/jadianime-ts": "^2.0.0",
-    "awesome-phonenumber": "^2.64.0",
-    "anime-wallpaper": "^1.0.2",
+  "@adiwajshing/keyed-db": "^0.2.4",
+  "@bochilteam/scraper": "4.0.22-alpha.0",
+  "@saipulanuar/jadianime-ts": "^2.0.0",
+  "@whiskeysockets/baileys": "^6.4.0",
+  "@whiskeysockets/baileys": "^6.5.0",
+  "@adiwajshing/keyed-db": "^0.2.4",
+  "@hapi/boom": "^10.0.1",
+  "awesome-phonenumber": "^5.9.0",
+  "anime-wallpaper": "^1.0.2",
     "api-dylux": "^1.4.4",
     "axios": "^0.24.0",
     "chalk": "^4.1.2",
+    "sharp": "^0.30.5",
+    "wa-sticker-formatter": "^4.4.4",
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
     "cookie": "^0.5.0",
@@ -41,8 +46,8 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "fs-extra": "^10.0.0",
-    "genshin-api": "^2.1.0",
     "g-i-s": "^2.1.6",
+    "genshin-api": "^2.1.0",
     "google-it": "^1.6.2",
     "google-tts-api": "^2.0.2",
     "got": "^11.8.3",
@@ -82,21 +87,14 @@
     "request": "^2.88.2",
     "rimraf": "^3.0.2",
     "scrape-primbon": "^1.1.0",
+    "similarity": "^1.2.1",
     "spinnies": "^0.5.1",
     "spotifydl-x": "^0.3.0",
     "syntax-error": "*",
     "util": "^0.12.4",
     "yargs": "^17.2.1",
     "youtube-yts": "^2.0.0",
-    "ytdl-core": "^4.11.4",
-    "youtubedl-core": "^4.11.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DGXeon/CheemsBot-MD8.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DGXeon/CheemsBot-MD8/issues"
-  },
-  "homepage": "https://github.com/DGXeon/CheemsBot-MD8/#readme"
+    "youtubedl-core": "^4.11.7",
+    "ytdl-core": "^4.11.5"
+  }
 }
