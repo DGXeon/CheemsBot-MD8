@@ -4,13 +4,13 @@ const fs = require("fs")
 //aumto presence update
 global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
-global.autoblockmorroco = false //auto block 212 (true to on, false to off)
-global.autokickmorroco = false //auto kick 212 (true to on, false to off) 
-global.antispam = false //auto kick spammer (true to on, false to off)
+global.autoblockmorroco = true //auto block 212 (true to on, false to off)
+global.autokickmorroco = true //auto kick 212 (true to on, false to off) 
+global.antispam = false//auto kick spammer (true to on, false to off)
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
-global.keyopenai = "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"
+global.keyopenai = "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"
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -21,27 +21,113 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['916909137213'] //ur owner number
-global.ownernomer = "916909137213" //ur owner number2
-global.ownername = "🦄Dream Guy Xeon" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.owner = ['6285892928715'] //ur owner number
+global.ownernomer = "6285702642230" //ur owner number2
+global.ownername = "DANZ BOT OWNER" //ur owner name
+global.ytname = "YT: lom ada" //ur yt chanel name
+global.socialm = "GitHub: AhmadDaniWn" //ur github or insta name
+global.location = "Jatim, Indonesia" //ur location
+
+//Server crete panel egg biasa
+global.domain = 'https://kiipanel.kimzz-hosting.tech' // Isi Domain Lu jangan kasih tanda / di akhir link
+global.apikey = 'ptla_2WhczNUMh60Ep0Jx7UC7WiFnGPUwyrqGoLcQifEvRQX' // Isi Apikey Plta Lu
+global.capikey = 'ptlc_jLFm7Dd9HlPkTiTVBlNKTC2GW8EgEzzvPpJBRE7wTdv' // Isi Apikey Pltc Lu
+//===========================//
+//Server create panel egg pm2
+global.apikey2 = '-' // Isi Apikey Plta Lu
+global.capikey2 = '-' // Isi Apikey Pltc Lu
+global.domain2 = '-' // Isi Domain Lu
+global.docker2 = "ghcr.io/cekilpedia/vip:sanzubycekil" //jangan di ubah
+
+global.eggsnya2 = '15' // id eggs yang dipakai
+global.location2 = '1' // id location
+//===========================//
+global.domainotp = "https://claudeotp.com/api"
+global.apikeyotp = "a395f97fe99f4fad0e790d10af518b9a"
+global.eggsnya = '15' // id eggs yang dipakai
+global.location3 = '1' // id location
+global.tekspushkon = ""
+global.tekspushkonv2 = ""
+global.tekspushkonv3 = ""
+global.tekspushkonv4 = ""
+//===========================//
+
+global.rpg = {
+    emoticon(string) {
+        string = string.toLowerCase()
+        let emot = {
+            level: '📊',
+            limit: '🎫',
+            health: '❤️',
+            exp: '✨',
+            atm: '💳',
+            money: '💰',
+            bank: '🏦',
+            potion: '🥤',
+            diamond: '💎',
+            common: '📦',
+            uncommon: '🛍️',
+            mythic: '🎁',
+            legendary: '🗃️',
+            superior: '💼',
+            pet: '🔖',
+            trash: '🗑',
+            armor: '🥼',
+            sword: '⚔️',
+            pickaxe: '⛏️',
+            fishingrod: '🎣',
+            wood: '🪵',
+            rock: '🪨',
+            string: '🕸️',
+            horse: '🐴',
+            cat: '🐱',
+            dog: '🐶',
+            fox: '🦊',
+            robo: '🤖',
+            petfood: '🍖',
+            iron: '⛓️',
+            gold: '🪙',
+            emerald: '❇️',
+            upgrader: '🧰',
+            bibitanggur: '🌱',
+            bibitjeruk: '🌿',
+            bibitapel: '☘️',
+            bibitmangga: '🍀',
+            bibitpisang: '🌴',
+            anggur: '🍇',
+            jeruk: '🍊',
+            apel: '🍎',
+            mangga: '🥭',
+            pisang: '🍌',
+            botol: '🍾',
+            kardus: '📦',
+            kaleng: '🏮',
+            plastik: '📜',
+            gelas: '🧋',
+            chip: '♋',
+            umpan: '🪱',
+            skata: '🧩'
+        }
+        let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+        if (!results.length) return ''
+        else return emot[results[0][0]]
+    }
+}
 
 //new
-global.botname = "Cheems Bot MD V8"
-global.ownernumber = '916909137213'
-global.ownername = '🦄드림 가이 Xeon'
-global.ownerNumber = ["916909137213@s.whatsapp.net"]
-global.ownerweb = "https://youtube.com/@DGXeon"
-global.websitex = "https://youtu.be/L_SIk59QeAU"
-global.wagc = "https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH"
+global.botname = "Sopo Botz⚡"
+global.ownernumber = '6285892928715'
+global.ownername = 'Sopo Owner'
+global.ownerNumber = ["6285892928715@s.whatsapp.net"]
+global.ownerweb = ""
+global.websitex = ""
+global.wagc = "https://chat.whatsapp.com/HmTovMXPjeM0A13xiXqent"
 global.themeemoji = '🪀'
-global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
+global.wm = "SopoXbot Bot Inc."
+global.botscript = 'Dah gede nyari sc 🗿🖕' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n"
-global.creator = "916909137213@s.whatsapp.net"
+global.author = "| Danz X Sopo|\n\n"
+global.creator = "6285892928715@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
@@ -61,7 +147,25 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 
 //messages
 global.mess = {
-    success: 'Here you go!', 
+wait: "*_Tunggu sebentar ya Kak♡._*",
+   success: "Sukses Kak`",
+   on: "Sudah Aktif", 
+   off: "Sudah Off",
+   query: {
+       text: "Teks Nya Mana Kak?",
+       link: "Link Nya Mana Kak?",
+   },
+   error: {
+       fitur: "Mohon Maaf Kak Fitur Eror Silahkan Chat Developer Bot Agar Bisa Segera Diperbaiki",
+   },
+   only: {
+       group: "Maaf Kak Fitur Ini Hanya Bisa Digunakan Di Dalam Group",
+       private: "Maaf Kak Fitur Ini Hanya Bisa Digunakan Di Dalam Private Chat",
+       owner: "Maaf Kak Fitur Ini Hanya Bisa Digunakan Sama Owner Bot",
+       admin: "Maaf Kak Fitur Ini Hanya Bisa Digunakan Sama Owner Bot",
+       badmin: "Maaf Kak Kaya Nya Kakak Tidak Bisa Menggunakan Fitur Ini Di Karenakan Bot Bukan Admin Group",
+       premium: "Maaf Kamu Belum Jadi User Premium Untuk Menjadi User Premium Silahkan Beli Ke Owner Dengan Cara Ketik .owner",
+   }
 }
 
 let file = require.resolve(__filename)
